@@ -17,7 +17,7 @@ void main(){
           await tester.pumpAndSettle();
           expect(find.byType(FourthScreen), findsOneWidget);
           expect(find.byType(FifthScreen), findsNothing);
-         //expect(find.text('Input at least one character'),findsOneWidget);
+          //expect(find.text('Input at least one character'),findsOneWidget);
         });
 
     testWidgets("After inputting a text, go to the display page which contains that same text "
